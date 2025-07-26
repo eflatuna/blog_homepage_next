@@ -1,10 +1,8 @@
 import HeroSection from "@/components/HeroSection";
-import Navigation from "@/components/Navigation";
 
 export default function Home() {
 	return (
-		<div>
-			<Navigation />
+		<div className="min-h-screen bg-background">
 			<main>
 				<HeroSection />
 			</main>
